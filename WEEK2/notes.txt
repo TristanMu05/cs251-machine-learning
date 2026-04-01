@@ -1,0 +1,2 @@
+key in map determines if the key is in the map
+key not in map determines if the key is not in the map

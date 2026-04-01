@@ -1,0 +1,11 @@
+Agent: the ai can percieve its environment and make actons on its
+State: the configuration of that perticular environment
+Goal State: the solved state of the problem
+Unsolved State: requires actions to solve the problem
+Actions: a choiceor decision an agent can make on the current state. typically represented as functions
+transition function: when an action is made it returns the new state
+path cost: we cannot examine every single possibility, so we want to factor in the path cost for time and quality
+
+Depth first search via agacency matrix
+    stack LIFO
+    find a path from A to E
